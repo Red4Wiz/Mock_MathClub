@@ -8,7 +8,8 @@ const Hero = () => {
         <h1>Mackenzie Math Club</h1>
         <p>A community for math enthusiasts</p>
       </div>
-      <div className="hero-image"></div>
+      <div className="hero-image">
+      </div>
     </section>
   );
 };
