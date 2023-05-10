@@ -21,11 +21,8 @@ body {
   color: #4990c9;
 }
 
-.navbar-links {
-  display: flex;
-}
-
-.navbar-link {
+.navbar li {
+  display: inline-flex;
   margin-right: 2rem;
   color: white;
   font-family: "Bebas Neue", sans-serif;
@@ -35,7 +32,7 @@ body {
   border: 0.2rem transparent solid;
 }
 
-.navbar-link:hover {
+.navbar li:hover {
   background-color: #4990c9;
   border-color: #4990c9;
   border-radius: 10%;
@@ -119,4 +116,82 @@ body {
 
 .project-box p {
   color: #3d3570;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.calendar h1 {
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.calendar iframe {
+  margin-top: 1rem;
+}
+
+
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20%;
+  margin-top: 5%;
+  padding: 3%;
+  background-color: #fcba03;
+  width: 60%;
+  border-radius: 10%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-container h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact-container label {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-container input,
+textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container button {
+  background-color: #1e90ff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.contact-container button:hover {
+  background-color: #0077b6;
 }

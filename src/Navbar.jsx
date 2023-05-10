@@ -8,7 +8,7 @@ export default function Navbar() {
         Math Club
       </Link>
       <ul >
-        <CustomLink to="/events" className="navbar-links">Pricing</CustomLink>
+        <CustomLink to="/events" className="navbar-links">Events</CustomLink>
         <CustomLink to="/lessons" className="navbar-links">Lessons</CustomLink>
         <CustomLink to="/contact" className="navbar-links">Contact</CustomLink>
       </ul>
