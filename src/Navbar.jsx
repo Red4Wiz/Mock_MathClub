@@ -7,7 +7,7 @@ export default function Navbar() {
       <Link to="/" className="navbar-title">
         Math Club
       </Link>
-      <ul >
+      <ul>
         <CustomLink to="/events" className="navbar-links">Events</CustomLink>
         <CustomLink to="/lessons" className="navbar-links">Lessons</CustomLink>
         <CustomLink to="/contact" className="navbar-links">Contact</CustomLink>

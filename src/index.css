@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
   padding: 2rem;
 }
 
@@ -19,9 +20,10 @@ body {
   font-family: "Bebas Neue", sans-serif;
   font-size: 2rem;
   color: #4990c9;
+  text-decoration: none;
 }
 
-.navbar li {
+.navbar li{
   display: inline-flex;
   margin-right: 2rem;
   color: white;
@@ -35,6 +37,7 @@ body {
 .navbar li:hover {
   background-color: #4990c9;
   border-color: #4990c9;
+  text-decoration: none;
   border-radius: 10%;
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
@@ -85,7 +88,7 @@ body {
 }
 
 .project-box {
-  width: 30%;
+  width: 25%;
   margin-bottom: 50px;
   padding: 20px;
   background-color: #d4eafa;
